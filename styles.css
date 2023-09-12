@@ -1,0 +1,81 @@
+body {
+    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Happy Monkey', cursive;
+
+    background-image: linear-gradient(rgb(225, 246, 255), rgb(73, 192, 239));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    min-width: 500px;
+    min-height: 500px;
+    height: 100vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#input-area {
+    margin-bottom: 8vh;
+}
+
+#input-el {
+    margin-left: 10px;
+    height: 22px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Happy Monkey', cursive;
+    background-color: aliceblue;
+    border: 2px solid rgb(108, 108, 255);
+    border-radius: 5px;
+    outline: 1px solid rgb(59, 59, 255);
+}
+
+
+button {
+    background-color: rgb(255, 246, 152);
+    width: 110px;
+    height: 30px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Happy Monkey', cursive;
+    border: 2px solid rgb(255, 234, 76);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#clear-btn {
+    width: 80px;
+    background-color: rgb(255, 145, 145);
+    border: 2px solid rgb(255, 95, 95);
+}
+
+.list-items {
+    min-width: 250px;
+    width: fit-content;
+    height: 40px;
+    background-color: aliceblue;
+    border: 2px solid rgb(85, 85, 255);
+    padding: 8px 10px;
+    font-size: 16px;
+}
